@@ -8,5 +8,5 @@ while (letter >= 'a')
 putchar(letter);
 letter--;
 }
-putchar('\n'); // Print a newline character
+putchar('\n');
 return (0);
