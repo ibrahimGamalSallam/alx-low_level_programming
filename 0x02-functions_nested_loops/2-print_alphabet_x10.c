@@ -4,7 +4,8 @@
  *printing alphabet 10 times
  */
 void print_alphabet_x10(void) {
-    for (int j = 0; j < 10; j++) {
+	int j;
+    for (j = 0; j < 10; j++) {
         print_alphabet();
     }
 }
