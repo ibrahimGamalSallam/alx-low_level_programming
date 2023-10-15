@@ -13,5 +13,5 @@ int main(void)
 }
 void _putchar(char i)
 {
-    putchar(c);
+    putchar(i);
 }
