@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include "main.h"
-/*
- *printing alphabet 10 times
+/**
+ * print_alphabet_x10 - alphabet in lowercase 10 times
+ *
  */
-void print_alphabet_x10(void) {
+void print_alphabet_x10(void)
+{
 	int j;
-    for (j = 0; j < 10; j++) {
-        void _putchar(char i);
-    }
+
+	for (j = 0; j < 10; j++)
+	{
+		void _putchar(char i);
+	}
 }

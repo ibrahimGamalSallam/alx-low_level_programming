@@ -11,7 +11,7 @@ int main(void)
     print_alphabet();
     return (0);
 }
-void _putchar(char c)
+void _putchar(char i)
 {
     putchar(c);
 }
