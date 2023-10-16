@@ -1,14 +1,15 @@
 #include "main.h"
-/*
-* _isalpha ()- is alphabet?
-* Description: a function to check if the character provided is alphabet
-* @c: variable
-* Return: return 1 if alphabet and 0 if not
-* function: does a lot of wonders
+/**
+ * _isalpha - Check Holberton
+* @c: An input character
+* Description: function returns 1 if the character is a
+* letter, lowercase or uppercase.
+* Return:  or  in otherwise.
 */
 int _isalpha(int c)
 {
-	if (c >= 0 && c <= 127)
+
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 	{
 		return (1);
 	}
