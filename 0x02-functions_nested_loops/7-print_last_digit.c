@@ -4,12 +4,15 @@
  *@
  *Return : always returns 0
  */
-int print_last_digit(int num)
+int print_last_digit(int r)
 {
-	if (num > 0)
-	{
-		return (num % 10); 
-	}
+	int n;
+
+	if (r < 0)
+		n = -1 * (r % 10);
 	else
-		return (num % 10);
+		n = r % 10;
+
+	_putchar((n % 10) + '0');
+	return (n % 10);
 }
