@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *print_last_digit - function to print the last digit
- *@
- *Return : always returns 0
- */
+* print_last_digit - function to print the last digit
+* @r: parameters to be used
+* Return: the last digit
+*/
 int print_last_digit(int r)
 {
 	int n;
