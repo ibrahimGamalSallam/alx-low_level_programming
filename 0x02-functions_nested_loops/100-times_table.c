@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_to_98 - print from n to 98, followed by a new line
+ * print_times_table - prints times table for numbers from 0-14
+ * putformat - formatted characters to output
  * @n: A input integer
  * from n to 98, followed by a new line.
  * Return: Nothing
