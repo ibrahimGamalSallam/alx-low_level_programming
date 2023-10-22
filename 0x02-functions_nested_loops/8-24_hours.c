@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * jack_bauer - Check Holberton
+ * jack_bauer - day's minute
  * Description: to print every minute in one day
- * Return: Always 
+ * Return: Always return 0
  */
 void jack_bauer(void)
 {
