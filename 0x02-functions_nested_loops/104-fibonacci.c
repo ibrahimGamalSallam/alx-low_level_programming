@@ -2,7 +2,6 @@
 
 /**
  * main - to  print the first 98 Fibonacci numbers, starting with 1 and 2
- * @i: input integer
  * Return: Always return 0
  */
 int main(void)
