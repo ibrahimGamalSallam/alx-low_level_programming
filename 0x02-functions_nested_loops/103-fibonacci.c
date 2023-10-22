@@ -2,7 +2,6 @@
 
 /**
  * main - to print the sum of even-valued Fibonacci sequence
- * @i: input integer
  * Return: Always return 0
  */
 int main(void)
