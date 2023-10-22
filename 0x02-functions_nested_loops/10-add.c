@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * 10-add.c - adds two integers and returns the result
+ * add - function to add two integers and returns the result
+ * @num1: parameter to be used
+ * @num2: parameter to be used too
  * Return: always print 0
  */
 int add(int num1, int num2)
