@@ -2,7 +2,6 @@
 
 /**
  * main - print natural numbers below 1024
- * @i: input integer
  * Return: Always return 0
  */
 int main(void)
