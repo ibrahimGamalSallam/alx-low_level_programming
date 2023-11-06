@@ -12,9 +12,9 @@ void print_numbers(void)
 
 	for (a = 0; a < 1; a++)
 	{
-	for (i = 0; i <= 9; i++)
+	for (i = 47; i <= 57; i++)
 	{
-	_putchar('i');
+	_putchar(i);
 	}
 	_putchar('\n');
 	}
