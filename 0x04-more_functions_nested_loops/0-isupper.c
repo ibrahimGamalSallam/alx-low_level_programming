@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * add - function to add two integers and returns the result
- * @num1: parameter to be used
- * @num2: parameter to be used too
+ * _isupper - function to return 1 if digit is upper case and 0 if not
+ * @c: parameter to be used
  * Return: always print 0
  */
 int _isupper(int c)
 {
-	if(c>=65 &&  c<=90)
+	if (c >= 65 && c <= 90)
 	{
-	return 1;
+	return (1);
 	}
 	else
-	return 0;	
+	return (0);
 }
