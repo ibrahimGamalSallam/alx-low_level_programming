@@ -1,2 +1,2 @@
 void _putchar(char i);
-int _isupper(int c);;
+int _isupper(int c);
