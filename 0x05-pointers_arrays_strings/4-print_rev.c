@@ -6,18 +6,17 @@
  */
 void print_string_reversed(char *str)
 {
-	int i, j, len;
+    int length = 0;
 
-	i = 0;
+    while (str[length] != '\0')
+    {
+        length++;
+    }
 
-	while (str[i] != '\0')
-	{
-		i++;
-	}
-	len = i;
-	for (j = len - 1; j >= 0; j--)
-	{
-		_putchar(str[j]);
-	}
-	_putchar('\n');
+    for (int i = length - 1; i >= 0; i--)
+    {
+        _putchar(str[i]);
+    }
+
+    _putchar('\n');
 }
